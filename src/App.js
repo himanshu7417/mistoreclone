@@ -41,6 +41,8 @@ function App() {
        <Route exact path="/mobileAccessories" element={<HotAccessories mobileAccessories={data.hotAccessories.mobileAccessories} mobileAccessoriesCover={data.hotAccessoriesCover.mobileAccessories}  />} />
        
        </Routes>
+
+       <Heading text = "Product Reviews"/>
        
     </BrowserRouter>
 
