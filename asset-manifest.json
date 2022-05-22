@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mistoreclone/static/css/main.151eac46.css",
+    "main.js": "/mistoreclone/static/js/main.520d8b2c.js",
+    "index.html": "/mistoreclone/index.html",
+    "main.151eac46.css.map": "/mistoreclone/static/css/main.151eac46.css.map",
+    "main.520d8b2c.js.map": "/mistoreclone/static/js/main.520d8b2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.151eac46.css",
+    "static/js/main.520d8b2c.js"
+  ]
+}
