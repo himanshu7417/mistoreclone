@@ -11,6 +11,8 @@ import Heading from './components/Heading';
 import StarProducts from './components/StarProducts';
 import HotAccessoriesMenu  from "./components/HotAccessoriesMenu"
 import HotAccessories from "./components/HotAccessories"
+import ProductReviews from './components/ProductReviews';
+
 
 
 
@@ -43,6 +45,15 @@ function App() {
        </Routes>
 
        <Heading text = "Product Reviews"/>
+
+       <ProductReviews productReviews={data.productReviews}/>
+       <Heading text="VIDEOS" />
+      
+      <Videos videos={data.videos} />
+
+      <Heading  text="IN THE PRESS"/>
+   
+       <Banner  banner={data.banner}/>
        
     </BrowserRouter>
 
