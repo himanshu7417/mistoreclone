@@ -5,6 +5,8 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import data from './data/data.json'
 import Slider from './components/Slider';
 import Offers from './components/Offers';
+import Heading from './components/Heading';
+
 
 
 function App() {
@@ -15,7 +17,9 @@ function App() {
      {/* passing image banner as props */}
      <Slider start = {data.banner.start} /> 
      <Offers offer = {data.offer}/>
+     <Heading text ="STAR PRODUCTS"/>
     </Router>
+
   );
 }
 
